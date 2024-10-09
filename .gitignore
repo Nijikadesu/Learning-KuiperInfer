@@ -31,21 +31,7 @@
 *.out
 *.app
 
-.idea/.name
-
-.idea/codeStyles/codeStyleConfig.xml
-
-.idea/deployment.xml
-
-.idea/kuiperdatawhale.iml
-
-.idea/misc.xml
-
-.idea/modules.xml
-
-.idea/other.xml
-
-.idea/vcs.xml
+.idea/
 
 build
 
