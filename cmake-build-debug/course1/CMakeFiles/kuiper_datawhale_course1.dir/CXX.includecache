@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/kuiperdatawhale/course1/test/axby.cpp
+armadillo
+-
+glog/logging.h
+-
+gtest/gtest.h
+-
+

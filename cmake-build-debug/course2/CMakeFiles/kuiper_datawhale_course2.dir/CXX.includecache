@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../course2/include/data/tensor.hpp
+armadillo
+-
+memory
+-
+vector
+-
+
+/tmp/kuiperdatawhale/course2/source/tensor.cpp
+data/tensor.hpp
+/tmp/kuiperdatawhale/course2/source/data/tensor.hpp
+glog/logging.h
+-
+memory
+-
+numeric
+-
+
+/tmp/kuiperdatawhale/course2/test/test_homework.cpp
+data/tensor.hpp
+/tmp/kuiperdatawhale/course2/test/data/tensor.hpp
+glog/logging.h
+-
+gtest/gtest.h
+-
+
